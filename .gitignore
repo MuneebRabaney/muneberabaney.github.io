@@ -60,6 +60,7 @@ public
 
 # Mac files
 .DS_Store
+.localized
 
 # Yarn
 yarn-error.log
@@ -67,3 +68,10 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
+
+#vscode
+.vscode
+
+#environments
+.env.development
+.env.production

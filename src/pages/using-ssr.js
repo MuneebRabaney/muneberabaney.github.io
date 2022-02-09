@@ -1,8 +1,8 @@
-import * as React from "react"
-import { Link } from "gatsby"
+import * as React from "react";
+import { Link } from "gatsby";
 
-import Layout from "../components/layout"
-import Seo from "../components/seo"
+import Layout from "@components/layout";
+import Seo from "@components/seo";
 
 const UsingSSR = ({ serverData }) => {
   return (
@@ -10,33 +10,27 @@ const UsingSSR = ({ serverData }) => {
       <Seo title="Using SSR" />
       <h1>SSR page</h1>
       <img
-        style={{ width: "300px" }}
         alt="A random dog"
         src={serverData.message}
+        style={{ width: "300px" }}
       />
       <p>Welcome to a server side rendered page with a random dog photo</p>
-      <p>
-        To learn more, head over to our{" "}
-        <a href="https://www.gatsbyjs.com/docs/reference/rendering-options/server-side-rendering/">
-          documentation about Server Side Rendering
-        </a>
-        .
-      </p>
+      {/* Describe what it means when you rendering a page on the server */}
       <Link to="/">Go back to the homepage</Link>
     </Layout>
   )
 }
 
-export default UsingSSR
+export default UsingSSR;
 
 export async function getServerData() {
   try {
-    const res = await fetch(`https://dog.ceo/api/breeds/image/random`)
-    if (!res.ok) {
-      throw new Error(`Response failed`)
+    const response = await fetch(`https://dog.ceo/api/breeds/image/random`);
+    if (!response.ok) {
+      throw new Error(`Response failed`);
     }
     return {
-      props: await res.json(),
+      props: await response.json(),
     }
   } catch (error) {
     return {
