@@ -49,13 +49,6 @@ module.exports = {
       },
     },
     {
-			resolve: 'gatsby-plugin-pdf',
-			options: {
-				paths: ['/showcase?page=0', '/showcase?page=1'],
-				outputPath: '/public/exports',
-			},
-		},
-    {
       resolve: `gatsby-plugin-alias-imports`,
       options: {
         alias: {
