@@ -2,7 +2,8 @@ import * as React from "react";
 import { Link } from "gatsby";
 
 import {
-  Seo, Layout, Sidebar, Experience, Filter
+  // Filter,
+  Seo, Layout, Sidebar, Experience, 
 } from "@components";
 
 const Showcase = () => (

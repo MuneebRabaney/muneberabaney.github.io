@@ -1,6 +1,6 @@
 import * as React from "react";
 import PropTypes from "prop-types";
-import { Link } from "gatsby";
+// import { Link } from "gatsby";
 
 const styles = {
   container: {
@@ -31,7 +31,6 @@ const Experience = ({
           {companyLocation} - {employeeRole}
         </span>
       </h2>
-      <h3></h3>
     </header>
     <p style={{ 'text-decoration': 'underline' }}>Duties and Responsibilities:</p>
     { children }
