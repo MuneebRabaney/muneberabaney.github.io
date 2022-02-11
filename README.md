@@ -9,15 +9,15 @@
 - 🔭 &nbsp; I’m currently working on planing the architectural technology requirements for an existing fintech Application in order to provide a more scalable, platform agnostic solution to the current implementation.
 
 - 🌱 &nbsp; I’m currently learning more about:
-  - **Micro-services** and how they differ from API's  
+  - **Micro-services** and how they differ from API's
   - **Scaling applications** to improve business requirements/new features.
-  - **realtime pub-sub systems** using websockets to comunicate between services. 
-  - Im also interested in learning about to code in **VIM** [(using VS Code\'s Vim plugin)](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim) to make me more productive. 
+  - **realtime pub-sub systems** using websockets to comunicate between services.
+  - Im also interested in learning about to code in **VIM** [(using VS Code\'s Vim plugin)](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim) to make me more productive.
   - **Python, TypeScript, NodeJS**
   - **React, React Native, Gatsby**
   - **GraphQL**
   - **SQL, NoSQL**
-  &nbsp;
+    &nbsp;
 - 👯 &nbsp; I’m looking to collaborate on creating a [crypto trading bot](https://github.com/MuneebRabaney/calypso-trade-bot).
 
 - 👨‍💻 &nbsp; My long awaited, soon to be comming [portfolio](https://code-ninja.co.za/).
@@ -32,15 +32,8 @@
   - **Documentation** !!Always make sure to read the documentation.
   - [Meduim](https://medium.com/)
   - [Stackexchange](https://stackexchange.com/)
-  - [YouTube](https://www.youtube.com)
-    - [Google Chrome Developers](https://www.youtube.com/c/GoogleChromeDevelopers)
-    - [Ben Awad](https://www.youtube.com/c/BenAwad97)
-    - [Jessy Warden](https://www.youtube.com/c/JesseWarden)
-    - [STÖK Fredrik](https://www.youtube.com/c/STOKfredrik)
-    - [TomNomNom](https://www.youtube.com/user/TomNomNomDotCom)
-    - [Network Chuck](https://www.youtube.com/c/NetworkChuck)
-    - [3blue1brown](https://www.youtube.com/c/3blue1brown)
-</p>
+  - [YouTube](https://www.youtube.com) - [Google Chrome Developers](https://www.youtube.com/c/GoogleChromeDevelopers) - [Ben Awad](https://www.youtube.com/c/BenAwad97) - [Jessy Warden](https://www.youtube.com/c/JesseWarden) - [STÖK Fredrik](https://www.youtube.com/c/STOKfredrik) - [TomNomNom](https://www.youtube.com/user/TomNomNomDotCom) - [Network Chuck](https://www.youtube.com/c/NetworkChuck) - [3blue1brown](https://www.youtube.com/c/3blue1brown)
+  </p>
 
 <br />
 <h3 align="left">Connect with me:</h3>

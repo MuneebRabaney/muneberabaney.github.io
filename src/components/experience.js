@@ -1,6 +1,5 @@
 import * as React from "react";
 import PropTypes from "prop-types";
-// import { Link } from "gatsby";
 
 const styles = {
   container: {
@@ -19,20 +18,24 @@ const Experience = ({
   employmentType,
   employmentLifespan,
   technologyStack,
-}) => (
+  visible = false
+}) => !visible ? null : (
   <section style={styles.container}>
     <header>
       <h2 style={{ margin: 0 }}>
-        {companyName}, 
+        {companyName}, &nbsp;
         <span style={{ 
-          'font-weight': 400, 
+          fontWeight: 400, 
           display: 'inline-block' 
         }}>
           {companyLocation} - {employeeRole}
         </span>
       </h2>
+      <br />
+      <h4 style={{ textDecoration: 'underline' }}>
+        Duties and Responsibilities:
+      </h4>
     </header>
-    <p style={{ 'text-decoration': 'underline' }}>Duties and Responsibilities:</p>
     { children }
     { employeeDescription && <p>{employeeDescription}</p> }
   </section>
@@ -49,11 +52,11 @@ Experience.propTypes = {
 
 Experience.defaultProps = {
   companyName: '', 
-  companyLocation: '',
   employeeRole: '', 
-  employeeDescription: '',
+  companyLocation: '',
   employmentType: '',
   employmentLifespan: '',
+  employeeDescription: ''
 }
 
 export default Experience;

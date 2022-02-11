@@ -6,10 +6,11 @@ const path = require('path');
 
 module.exports = {
   siteMetadata: {
-    title: `@{ Hello World }`,
-    description: `My portfolio`,
-    author: `Muneeb Rabaney`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: "Portfolio",
+    logo: '@{ Hello World }',
+    description: "My portfolio",
+    author: "Muneeb Rabaney",
+    siteUrl: "https://muneebrabaney.netlify.app",
   },
   plugins: [
     {
@@ -37,15 +38,18 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        start_id: '/',
         start_url: `/`,
-        background_color: `#69BAE4`,
+        name: `My Portfolio`,
+        short_name: `portfolio`,
+        orientation: "portrait",
+        description: "Portfolio of Muneeb Rabaney",
+        "display": "standalone",
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
-        // theme_color: `#69BAE4`,
-        display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        background_color: "#000000",
+        theme_color: "#000000",
+        icon: `src/images/icon-new.png`, // This path is relative to the root of the site.
       },
     },
     {
@@ -62,7 +66,13 @@ module.exports = {
         },
         extensions: ["js", "jsx", "css", "sass", "png", "jpg", "jpeg"]
       }
-    }
+    },
+    {
+      resolve: "gatsby-plugin-transition-link",
+      options: {
+          layout: require.resolve(`./src/layouts/base.js`)
+        }
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
