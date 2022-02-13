@@ -71,7 +71,10 @@ yarn-error.log
 
 #vscode
 .vscode
+.editorconfig
 
 #environments
 .env.development
 .env.production
+
+sandbox/

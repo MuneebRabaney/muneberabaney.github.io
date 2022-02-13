@@ -1,12 +1,11 @@
 import * as React from "react";
 import { Link } from "gatsby";
 
-import Layout from "@components/layout";
-import Seo from "@components/seo";
+import { Main, Seo } from "@components";
 
 const UsingSSR = ({ serverData }) => {
   return (
-    <Layout>
+    <Main>
       <Seo title="Using SSR" />
       <h1>SSR page</h1>
       <img
@@ -17,7 +16,7 @@ const UsingSSR = ({ serverData }) => {
       <p>Welcome to a server side rendered page with a random dog photo</p>
       {/* Describe what it means when you rendering a page on the server */}
       <Link to="/">Go back to the homepage</Link>
-    </Layout>
+    </Main>
   )
 }
 

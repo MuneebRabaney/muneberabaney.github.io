@@ -2,18 +2,18 @@ import * as React from "react";
 import { Link } from "gatsby";
 
 import {
-  Seo, Layout, 
+  Seo, Main, 
   Sidebar, Experience, 
 } from "@components";
 
 const Showcase = () => {
-  const [ pageID, setPageID ] = React.useState(false);
-  const [ pageCount, setPageCount ] = React.useState(false);
+  // const [ pageID, setPageID ] = React.useState(false);
+  // const [ pageCount, setPageCount ] = React.useState(false);
 
   return (
     <React.Fragment>
       <Seo title="Showcase" />
-      <Layout preset="primary__4:8" className="grid-container">
+      <Main preset="primary__4:8" className="grid-container">
 
         <Sidebar data-column-size="4" className="grid-column" />
 
@@ -135,7 +135,7 @@ const Showcase = () => {
         </div>
 
         <Link to="/">Go back to the homepage</Link>
-      </Layout>
+      </Main>
     </React.Fragment>
   )
 }

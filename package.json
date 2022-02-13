@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "portfolio.io",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A simple Application developed with Gatsby",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Muneeb Rabaney <muneebrabaney@gmail.com>",
   "engines": {
     "npm": "^8 || ^10"
   },
@@ -14,6 +14,7 @@
     "gatsby-plugin-alias-imports": "^1.0.5",
     "gatsby-plugin-config": "^1.0.7",
     "gatsby-plugin-image": "^2.7.0",
+    "gatsby-plugin-layout": "^3.7.0",
     "gatsby-plugin-manifest": "^4.6.0",
     "gatsby-plugin-offline": "^5.6.0",
     "gatsby-plugin-prettier-eslint": "^1.0.6",
@@ -24,6 +25,7 @@
     "gatsby-source-filesystem": "^4.7.0",
     "gatsby-transformer-sharp": "^4.7.0",
     "gsap": "^3.9.1",
+    "parcel": "^2.3.1",
     "prop-types": "^15.8.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -32,6 +34,9 @@
     "sass": "^1.49.7"
   },
   "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.4",
     "husky": "^7.0.4",
     "netlify-cli": "^9.1.1",
     "prettier": "^2.5.1",
@@ -47,7 +52,6 @@
     "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "preclean": "sudo sh ./bin/application-flush.sh",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "prepare": "husky install"
   },
